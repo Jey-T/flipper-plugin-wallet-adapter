@@ -1,4 +1,4 @@
-import { AptosWallet } from "../index";
+import { ShadowWallet } from "../index";
 
 /*
 Basic tests to make sure basic variables and functions are defined on the wallet
@@ -6,7 +6,7 @@ Basic tests to make sure basic variables and functions are defined on the wallet
 Note: change AptosWallet to match your class name
 */
 describe("AptosWallet", () => {
-  const wallet = new AptosWallet();
+  const wallet = new ShadowWallet();
 
   test("defines name", () => {
     expect(typeof wallet.name).toBe("string");
